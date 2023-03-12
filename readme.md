@@ -51,6 +51,7 @@ Then navigate to its directory and install dependencies:
 cd my-nft
 npm install
 ```
+and then npm install dotenv -D
 ### Get app credentials
 
 Fetch the credentials from your app's settings and add them to a `.env` file (see `.env.sample` for an example). You'll need your app ID (`APP_ID`), server ID (`GUILD_ID`), bot token (`DISCORD_TOKEN`), and public key (`PUBLIC_KEY`).
